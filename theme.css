@@ -40,6 +40,7 @@ input,select,textarea,button{font-family:var(--font-body);outline:none;}
 
 [data-nav]{position:fixed;top:0;left:0;right:0;z-index:100;background:transparent;border-bottom:1px solid transparent;transition:background .3s,border-color .3s;}
 [data-nav].nav-scrolled{background:rgba(10,10,10,.82);backdrop-filter:blur(14px);border-bottom-color:var(--border-subtle-dark);}
+[data-nav-panel][hidden]{display:none !important;}
 
 .hover-lift{transition:transform .16s,background .16s;}
 .hover-lift:hover{background:var(--accent-strong);transform:translateY(-2px);}
